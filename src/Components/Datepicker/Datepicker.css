@@ -1,0 +1,17 @@
+.middlebox{ 
+    float:left;  
+    background:Green; 
+    width:15%; 
+    height:50px; 
+  } 
+  .innerMiddlebox{ 
+    float:right; 
+    background:blue; 
+    width:15%; 
+    height:50px; 
+  }
+  @media(min-width: 576px).col-sm-8{
+    max-width: 50.666667%;  
+    
+  }
+  
